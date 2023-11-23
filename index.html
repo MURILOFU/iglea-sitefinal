@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacas.com</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+
+        
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Vacas do murilo</h2>
+        <p class="banner__texto"></p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual sera sua proxima vaca?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">vacas a venda</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/download (1).jpeg"
+                            alt=></div>
+                    <div class="swiper-slide"><img src="img/download (2).jpeg"
+                            alt=></div>
+                    <div class="swiper-slide"><img src="img/download.jpeg"
+                            alt=></div>
+                    <div class="swiper-slide"><img src="img/images (1).jpeg" alt=></div>
+                    <div class="swiper-slide"><img src="img/images (2).jpeg" alt=></div>
+                    <div class="swiper-slide"><img src="img/images (3).jpeg" alt="livro sobre acessibilidade"></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais vendidos</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/images (4).jpeg"
+                            alt=></div>
+                    <div class="swiper-slide"><img src="img/maxresdefault.jpg"
+                            alt=></div>
+                    <div class="swiper-slide"><img src="img/mqdefault.jpg"
+                            alt=></div>
+                    <div class="swiper-slide"><img src="img/vaca.jpg" alt="Livro Guia front end"></div>
+                    <div class="swiper-slide"><img src="img/RANI-2-779x576.jpg" alt=></div>
+                    <div class="swiper-slide"><img src="img/download.jpeg" alt="livro sobre acessibilidade"></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            
+                    
+
+                <!-- 2º linha -->
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="tópicos">
+        <h2 class="tópicos__titulo">RAÇAS DE VACAS MAIS PROCURADAS</h2>
+        <ul class="tópicos__lista">
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">holandesa</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">minis vaca</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">alemã</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">jerseys</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">girolandesas</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">guzera</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">nelore</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">peludas</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizaçoes de raça novas</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr />
+
+    
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>
